@@ -1,5 +1,5 @@
 
-package main
+package main //produce project that usable like for the execucable file produced with build
 
 import "fmt"
 

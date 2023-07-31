@@ -1,0 +1,13 @@
+
+go build => complies a bunch of go source code  into executable file
+            go build main.go
+            .\main.exe  runs the files main in exectable form
+
+go fmt =>  forate all code in each file current directory
+
+go test => test current project
+
+go get  & install dowload dependencies
+
+
+Array or Slice => must have the same type of data type inside of it
