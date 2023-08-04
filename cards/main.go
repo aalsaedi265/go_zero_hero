@@ -1,14 +1,19 @@
 
 package main
+// import "fmt"
 
 
 
 func main(){
-	//var card string = "Ace of Spades"
-	arr_card := newDeck()
-	deal(arr_card, 5)
-}
+	// made the executable My_cards File
+	// cards := newDeck()
+	// fmt.Println(cards.toString())
+	// cards.saveToFile("My_cards")
 
-func newCard() string{
-	return "Five of Diamonds"
+	// cards:=newDeckFromFile("my_cards")
+	// cards.print()
+
+	cards:= newDeck()
+	cards.shuffle()
+	cards.print()
 }
