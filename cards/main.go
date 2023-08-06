@@ -13,7 +13,7 @@ func main(){
 	// cards:=newDeckFromFile("my_cards")
 	// cards.print()
 
-	cards:= newDeck()
+	cards:= newDeck()// runs no problem?
 	cards.shuffle()
 	cards.print()
 }
