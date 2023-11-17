@@ -11,5 +11,12 @@
                 <li>{{item}}</li>
             {%endfor%}
         </ul>
+        {%if page > 1%}
+        <a href = "{{url_ for ('index', page = page -1)}}"> prevriouisly</a>
+        {%endif%}
+        <span>Page {{page}} of {{total_pages}}</span>
+            {%if page > total_pages%}
+            <a href = "{{url_ for('index', page=page+1)}}">Next</a>
+            {%endif%}
     </boyd>
 </html>
